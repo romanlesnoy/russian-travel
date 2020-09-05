@@ -8,5 +8,6 @@
 @media (max-width: 540px) {
   .place__paragraph-container {
     line-height: 14px;
+    margin-bottom: 24px;
   }
 }
