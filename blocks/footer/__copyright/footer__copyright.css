@@ -1,0 +1,12 @@
+.footer__copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px; 
+  color: #fff;
+}
+
+@media (max-width: 540px) {
+  .place__paragraph-container {
+    line-height: 14px;
+  }
+}

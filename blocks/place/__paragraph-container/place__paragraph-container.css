@@ -1,0 +1,5 @@
+@media (max-width: 540px) {
+  .place__paragraph-container {
+    padding: 0 16px;
+  }
+}

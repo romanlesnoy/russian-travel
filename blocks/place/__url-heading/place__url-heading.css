@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 540px) {
   .place__url-heading {
     display: none;
   }

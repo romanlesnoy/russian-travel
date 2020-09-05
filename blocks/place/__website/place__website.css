@@ -1,0 +1,9 @@
+.place__website {
+    align-self: end;
+}
+  
+@media screen and (max-width: 540px) {
+  .place__website {
+    display: none;
+  }
+}

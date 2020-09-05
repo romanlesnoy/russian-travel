@@ -4,3 +4,15 @@
   color: #fff;
   text-decoration: none;
 }
+
+.header__lang-link:hover {
+  opacity: .8;
+  transition: .2s, ease-in-out, linear;
+}
+
+@media screen and (max-width: 540px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

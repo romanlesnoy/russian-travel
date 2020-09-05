@@ -5,6 +5,11 @@
   text-decoration: underline;
 }
 
+.place__link:hover {
+  opacity: .8;
+  transition: .2s, ease-in-out, linear;
+}
+
 @media screen and (max-width:320px) {
   .place__link {
     display: none;
