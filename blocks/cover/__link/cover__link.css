@@ -5,6 +5,7 @@
   align-items: center;
   min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
+  background-position: center center;
   position: relative;
   color: #fff;
   text-decoration: none;
@@ -19,9 +20,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #2A2C2F;;
+  background-color: #2A2C2F;
   opacity: 0.3;
-  transition: .2s, ease-in-out, linear;;
+  transition: opacity .3s ease-in-out;
 }
 
 .cover__link:hover::before {
@@ -45,3 +46,10 @@
     min-height: 300px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
