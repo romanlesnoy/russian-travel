@@ -6,8 +6,8 @@
 }
 
 @media (max-width: 540px) {
-  .place__paragraph-container {
+  .footer__copyright {
     line-height: 14px;
-    margin-bottom: 24px;
+    margin: 0 0 24px;
   }
 }
