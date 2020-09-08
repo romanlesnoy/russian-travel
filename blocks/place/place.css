@@ -9,12 +9,16 @@
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
+    margin-right: 48px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
+    margin-right: 24px;
+    margin-left: 24px;
     margin-bottom: 72px;
   }
 }
